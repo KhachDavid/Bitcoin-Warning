@@ -1,0 +1,105 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<!-- Author Meta -->
+		<meta name="author" content="codepixer">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<meta http-equiv="refresh" content="4" >
+
+
+		<title>Bitcoin</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+			<!--
+			CSS
+			============================================= -->
+
+			<link rel="stylesheet" href="../static/css/bootstrap.css">
+
+
+			<link rel="stylesheet" href="../static/css/main.css">
+		</head>
+		<body>
+
+			  <header id="header" id="home">
+			    <div class="container">
+			    	<div class="row align-items-center justify-content-between d-flex">
+				      <div id="logo">
+				        <img src="../static/img/logo.png" alt="" title="" /></a>
+				      </div>
+				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+
+				          <li><a href="https://www.youtube.com/watch?v=uS1KcjkWdoU">The Bitcoin Scene From Silicon Valley</a></li>
+				        </ul>
+				      </nav><!-- #nav-menu-container -->		    		
+			    	</div>
+			    </div>
+			  </header><!-- #header -->
+
+			<!-- start banner Area -->
+			<section class="banner-area relative" >
+				<div class="overlay overlay-bg"></div>		
+				<div class="container">
+					<div class="row fullscreen d-flex align-items-center justify-content-start">
+						<div class="banner-content col-lg-12 col-md-12">
+							<h5 class="text-white text-uppercase">Currently Purchase Rate</h5>
+							<h1 class="text-uppercase">
+								${{rate}}
+							</h1>
+							{% if rate < limit %}
+							<iframe style="display: none;" width="560" height="315" src="https://streamable.com/e/d7mz1f?autoplay=1&loop=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; autoplay"></iframe>
+							{% endif %}
+							<p class="text-white pt-20 pb-20">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp <br> or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+							</p>
+							<form method="post">
+								<div class="form-group">
+                        			<input class="form-control" id="limit" name="limit" placeholder = "Limit"required type="number">
+                        		<div class="help-block with-errors"></div>
+                    			</div>
+							</form>
+							<p class="text-white pt-20 pb-20">
+								Limit is {{ limit }}
+							</p>
+						</div>												
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->	
+
+
+					<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
+						<p class="footer-text m-0">
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</p>
+						<div class="footer-social d-flex align-items-center">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a>
+						</div>
+					</div>
+				</div>
+			</footer>	
+			<!-- End footer Area -->
+
+			<script src="../static/js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="../static/js/main.js"></script>
+
+		</body>
+	</html>
+
+
+
