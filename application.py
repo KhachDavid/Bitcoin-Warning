@@ -2,7 +2,7 @@ import requests
 from flask import Flask, render_template, request, session, redirect, url_for
 
 app = Flask(__name__)
-app.secret_key = 'b11223344AaadD$$r.,IIr]]tP[tu@urr'
+app.secret_key = '**************'
 
 
 @app.route('/', methods=['GET', 'POST'])
